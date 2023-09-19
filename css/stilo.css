@@ -12,11 +12,58 @@
    height: 85vh; 
    max-width: 100%;
    background-image: linear-gradient(to right, rgba(0,0,0, 0.9) 35%, rgba(0,0,0,0)), url(/images/capa\ principal\ netflix.jpeg);
-   background-size:cover;
+   background-size:cover; 
+   color: white; 
 } 
 
-.titulo-do-filme {
+.titulo-do-filme{
+    padding-top: 135px ;
+    padding-left: 55px;
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
+    font-size: 38px;
 }
+.estrelas { 
+    padding-top: 6px;
+    padding-left: 55px; 
+    color: red;
+    align-content: space-between;
+} 
+
+li {
+    list-style:none;
+    display:flex;
+    justify-content: flex-start;
+    align-self: start;
+    padding-left: 185px;
+    margin-top: -18px; 
+    font-family: 'Montserrat', sans-serif; 
+} 
+
+.descricao-filme {
+    font-family: 'Montserrat', sans-serif; 
+    padding-left: 55px;
+    font-size: 30px; 
+    display: flex; 
+    margin-top: 10px;
+
+} 
+
+.faixa {
+    background-color: gray;
+    font-weight: 700;
+    margin-left:  10px;
+    margin-right: 10px;
+    padding: 5px;
+    margin-top: -5px;
+} 
+
+.QA {
+    background-color: #555;
+    font-weight: 700;
+    margin-left:  10px;
+    margin-right: 10px;
+    padding: 5px;
+    margin-top: -5px;
+} 
