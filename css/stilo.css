@@ -67,3 +67,34 @@ li {
     padding: 5px;
     margin-top: -5px;
 } 
+
+.gradefilmes1 {
+    padding: 25px 0px;
+    background-color: black; 
+    display: grid;
+    grid-template-columns: repeat(6, 2fr); 
+    grid-template-rows: minmax(100px, auto);  
+
+}
+
+.titulo1{
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    font-weight: 300 ;
+    padding-top: 0px;
+    padding-left: 55px;
+}
+
+img {
+    width: 100%; 
+    height: 85%; 
+}
+
+img:hover {
+    width: 100%; 
+    height: 85%; 
+    border: solid 5px #eee;
+}
+
